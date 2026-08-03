@@ -1,3 +1,4 @@
+console.log("script.js is loaded!");
 function checkAnswer2() {
   const input = document.getElementById("answer2").value.toLowerCase();
   if (input === "e" || input.includes("letter e")) {
